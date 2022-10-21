@@ -62,11 +62,28 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+  }
+
+  .float-right {
+    float: right;
+    margin-left: 25px;
+  }
+
 /*Class styling*/
 
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 .benefits {
@@ -78,18 +95,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-  }
-
-  .float-right {
-    float: right;
-    margin-left: 25px;
-  }
-         
+}      
     .service {
         margin-bottom: 20px;
         padding: 50px;
